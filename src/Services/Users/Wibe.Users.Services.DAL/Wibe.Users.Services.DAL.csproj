@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+      <Folder Include="Repositories\" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="MongoDB.Driver" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Wibe.Users.Common\Wibe.Users.Common.csproj" />
+      <ProjectReference Include="..\Wibe.Users.Domain\Wibe.Users.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

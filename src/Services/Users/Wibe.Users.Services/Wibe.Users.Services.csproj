@@ -1,0 +1,6 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Wibe.Users.Common\Wibe.Users.Common.csproj" />
+    <ProjectReference Include="..\Wibe.Users.Domain\Wibe.Users.Domain.csproj" />
+  </ItemGroup>
+</Project>

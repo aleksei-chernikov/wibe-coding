@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".etc", ".etc", "{DFC798DC-377E-4322-B3EB-44B57778A1F3}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7EC49CEC-0ED8-46B5-97D0-A120914CCA86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{1BF6F998-B4BB-4A5B-98CF-5156EB0E0047}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{DAF71CA4-9041-40BF-90CC-947244D24C43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{0F8B6A53-F41F-4017-940C-3330F8039316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wibe.Users.API", "Services\Users\Wibe.Users.API\Wibe.Users.API.csproj", "{3B913F02-6A00-4AF8-BF2D-0F87CC7DD5E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wibe.Users.Domain", "Services\Users\Wibe.Users.Domain\Wibe.Users.Domain.csproj", "{D5D78102-623D-4B07-BFC3-0B78ACC2BC90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wibe.Users.Services", "Services\Users\Wibe.Users.Services\Wibe.Users.Services.csproj", "{B62E5E2E-E8EB-4C82-B526-F42DE6ADBE95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wibe.Users.Services.DAL", "Services\Users\Wibe.Users.Services.DAL\Wibe.Users.Services.DAL.csproj", "{4313612D-B893-4862-943D-C9F5BDBA8F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wibe.Users.Common", "Services\Users\Wibe.Users.Common\Wibe.Users.Common.csproj", "{DDB948B2-22B3-4925-BB3C-F3CAAC7B7793}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B913F02-6A00-4AF8-BF2D-0F87CC7DD5E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B913F02-6A00-4AF8-BF2D-0F87CC7DD5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B913F02-6A00-4AF8-BF2D-0F87CC7DD5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B913F02-6A00-4AF8-BF2D-0F87CC7DD5E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D78102-623D-4B07-BFC3-0B78ACC2BC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D78102-623D-4B07-BFC3-0B78ACC2BC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D78102-623D-4B07-BFC3-0B78ACC2BC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D78102-623D-4B07-BFC3-0B78ACC2BC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B62E5E2E-E8EB-4C82-B526-F42DE6ADBE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62E5E2E-E8EB-4C82-B526-F42DE6ADBE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62E5E2E-E8EB-4C82-B526-F42DE6ADBE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62E5E2E-E8EB-4C82-B526-F42DE6ADBE95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4313612D-B893-4862-943D-C9F5BDBA8F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4313612D-B893-4862-943D-C9F5BDBA8F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4313612D-B893-4862-943D-C9F5BDBA8F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4313612D-B893-4862-943D-C9F5BDBA8F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB948B2-22B3-4925-BB3C-F3CAAC7B7793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB948B2-22B3-4925-BB3C-F3CAAC7B7793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB948B2-22B3-4925-BB3C-F3CAAC7B7793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB948B2-22B3-4925-BB3C-F3CAAC7B7793}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F8B6A53-F41F-4017-940C-3330F8039316} = {7EC49CEC-0ED8-46B5-97D0-A120914CCA86}
+		{3B913F02-6A00-4AF8-BF2D-0F87CC7DD5E5} = {0F8B6A53-F41F-4017-940C-3330F8039316}
+		{D5D78102-623D-4B07-BFC3-0B78ACC2BC90} = {0F8B6A53-F41F-4017-940C-3330F8039316}
+		{B62E5E2E-E8EB-4C82-B526-F42DE6ADBE95} = {0F8B6A53-F41F-4017-940C-3330F8039316}
+		{4313612D-B893-4862-943D-C9F5BDBA8F1A} = {0F8B6A53-F41F-4017-940C-3330F8039316}
+		{DDB948B2-22B3-4925-BB3C-F3CAAC7B7793} = {0F8B6A53-F41F-4017-940C-3330F8039316}
+	EndGlobalSection
+EndGlobal
