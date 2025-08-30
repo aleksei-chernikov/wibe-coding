@@ -5,7 +5,7 @@ namespace Wibe.Users.Services.DAL.Models.User;
 /// <summary>
 /// Контактные данные пользователя (модель БД)
 /// </summary>
-public class UserContactDbo
+internal class UserContactDbo
 {
     /// <summary>
     /// Тип контактных данных пользователя

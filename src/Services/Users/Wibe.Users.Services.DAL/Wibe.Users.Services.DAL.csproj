@@ -6,9 +6,12 @@
     
     <ItemGroup>
         <PackageReference Include="MongoDB.Driver" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\..\Common\Wibe.Common.MongoDb\Wibe.Common.MongoDb.csproj" />
       <ProjectReference Include="..\Wibe.Users.Common\Wibe.Users.Common.csproj" />
       <ProjectReference Include="..\Wibe.Users.Domain\Wibe.Users.Domain.csproj" />
     </ItemGroup>

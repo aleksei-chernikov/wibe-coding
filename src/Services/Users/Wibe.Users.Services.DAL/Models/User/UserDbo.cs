@@ -6,8 +6,13 @@ namespace Wibe.Users.Services.DAL.Models.User;
 /// Пользователь (модель БД)
 /// </summary>
 [BsonIgnoreExtraElements]
-public class UserDbo
+internal class UserDbo
 {
+    /// <summary>
+    /// Название коллекции
+    /// </summary>
+    public const string Collection = "Users";
+    
     /// <summary>
     /// Идентификатор
     /// </summary>
@@ -36,6 +41,12 @@ public class UserDbo
     /// </summary>
     [BsonIgnoreIfNull]
     public string? MiddleName { get; set; }
+    
+    /// <summary>
+    /// Является ли пользователь гостем
+    /// (Не подтверждены не одни контактные данные)
+    /// </summary>
+    public bool IsGuest { get; set; }
 
     /// <summary>
     /// Контактные данные пользователя
